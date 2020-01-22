@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-JV3CG33</Machine>
+    <WindowsUser>CCotrufo</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>780b70b2-0989-4f06-9f0d-b01f4c5906cd</PackageIdentityName>
+    <PackageIdentityPublisher>CN=FF71B2D6-DC05-4639-B537-3A568BCF041B</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\CCotrufo\source\repos\App1\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\CCotrufo\source\repos\App1\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>7CE83F8CD72E7F11D6F644872D6EBEE8AD1E3F7448CFF09C9715E87BFC50BB04</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>31447VonKlaus.mynotificationhubtest_1.0.0.0_x86__hjz6445dbs9dg</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>31447VonKlaus.mynotificationhubtest_hjz6445dbs9dg!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>31447VonKlaus.mynotificationhubtest</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=FF71B2D6-DC05-4639-B537-3A568BCF041B</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\CCotrufo\source\repos\App1\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-12-27T09:46:29.941</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\bin\x86\Debug\App1.exe">
+      <PackagePath>entrypoint\App1.exe</PackagePath>
+      <Modified>2019-12-27T09:46:28.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\microsoft.aspnet.webapi.client\5.2.7\lib\netstandard2.0\System.Net.Http.Formatting.dll">
+      <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
+      <Modified>2018-11-28T12:00:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\microsoft.aspnet.webapi.core\5.2.7\lib\net45\System.Web.Http.dll">
+      <PackagePath>System.Web.Http.dll</PackagePath>
+      <Modified>2018-11-28T12:01:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\microsoft.azure.notificationhubs\3.2.1\lib\netstandard2.0\Microsoft.Azure.NotificationHubs.dll">
+      <PackagePath>Microsoft.Azure.NotificationHubs.dll</PackagePath>
+      <Modified>2019-09-19T16:04:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\microsoft.extensions.caching.abstractions\2.1.2\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
+      <Modified>2018-07-26T16:17:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\microsoft.extensions.caching.memory\2.1.2\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll">
+      <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
+      <Modified>2018-07-26T16:17:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2018-06-06T22:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\microsoft.extensions.options\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+      <Modified>2018-06-06T22:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\microsoft.extensions.primitives\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2018-06-06T22:26:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\microsoft.identitymodel.logging\1.1.4\lib\netstandard1.4\Microsoft.IdentityModel.Logging.dll">
+      <PackagePath>Microsoft.IdentityModel.Logging.dll</PackagePath>
+      <Modified>2017-06-11T18:59:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\microsoft.identitymodel.tokens\5.1.4\lib\netstandard1.4\Microsoft.IdentityModel.Tokens.dll">
+      <PackagePath>Microsoft.IdentityModel.Tokens.dll</PackagePath>
+      <Modified>2017-06-11T18:59:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2017-06-18T11:57:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\newtonsoft.json.bson\1.0.1\lib\netstandard1.3\Newtonsoft.Json.Bson.dll">
+      <PackagePath>Newtonsoft.Json.Bson.dll</PackagePath>
+      <Modified>2017-03-22T10:01:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-07-22T13:01:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\.nuget\packages\windowsazure.messaging.managed\0.1.7.9\lib\netcore45\Microsoft.WindowsAzure.Messaging.Managed.dll">
+      <PackagePath>Microsoft.WindowsAzure.Messaging.Managed.dll</PackagePath>
+      <Modified>2014-07-30T10:12:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T17:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-11-11T12:59:55.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-11-08T07:13:30.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-08T07:13:30.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-08T07:13:30.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-08T07:13:30.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-08T07:13:30.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-08T07:13:30.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-08T07:13:30.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\bin\x86\Debug\App1.xr.xml">
+      <PackagePath>App1.xr.xml</PackagePath>
+      <Modified>2019-11-15T13:29:16.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-12-27T09:46:28.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-12-27T09:46:28.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T16:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-12-27T09:46:28.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\CCotrufo\source\repos\App1\bin\x86\Debug\Core\App1.exe">
+      <PackagePath>App1.exe</PackagePath>
+      <Modified>2019-12-27T09:46:29.937</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
